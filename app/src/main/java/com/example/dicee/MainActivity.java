@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 int num1 = randNum.nextInt(6);
                 int num2 = randNum.nextInt(6);
 
+
                 leftDice.setImageResource(diceArray[num1]);
                 rightDice.setImageResource(diceArray[num2]);
 
